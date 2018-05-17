@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AppGoro</string>
+    <string name="title_activity_beer_options">BeerOptionsActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_start_goro">StartGoroActivity</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+    <string name="title_activity_pay_bill">PayBillActivity</string>
+</resources>

@@ -1,6 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/beerMark"
+                android:layout_width="96dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@mipmap/ic_launcher" />
+
+            <ImageView
+                android:id="@+id/beerExample"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/ic_launcher" />
+
+            <RatingBar
+                android:id="@+id/beerRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:numStars="5"
+                android:rating="3"
+                android:theme="@style/RatingBar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/round_rect_shape"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/beerName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:text="Cervejaria: "
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Grupo: "
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Estilo: "
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerAlchoolPercent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Alcool (%): 5% ABV"
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerActive"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Ativa: Sim"
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerSazonal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Sazonal: Não é sazonal"
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerTemperature"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Temperatura: 5-7ºC"
+                        android:textColor="@color/blankColor" />
+
+                    <TextView
+                        android:id="@+id/beerType"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Corpor ideal: Lager (Chope)"
+                        android:textColor="@color/blankColor" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/buyBeer"
+                android:layout_width="96dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@mipmap/ic_launcher"
+                android:focusable="false" />
+
+        </LinearLayout>
+
+    </FrameLayout>
 
 </android.support.constraint.ConstraintLayout>

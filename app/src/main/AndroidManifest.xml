@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tulior.appgoro">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SuccessGoToBeerActivity" />
+        <activity
+            android:name=".BeerOptionsActivity"
+            android:label="@string/title_activity_beer_options" />
+        <activity
+            android:name=".StartGoroActivity"
+            android:label="@string/title_activity_start_goro" />
+        <activity
+            android:name=".UserProfileActivity"
+            android:label="@string/title_activity_user_profile" />
+        <activity
+            android:name=".PayBillActivity"
+            android:label="@string/title_activity_pay_bill"></activity>
+    </application>
+
+</manifest>
