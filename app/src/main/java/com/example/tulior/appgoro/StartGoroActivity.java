@@ -18,21 +18,7 @@ public class StartGoroActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            switch (item.getItemId()) {
-                case R.id.navigation_home:
-                    mTextMessage.setText("Home");
-                    return true;
-                case R.id.navigation_beer:
-                    mTextMessage.setText("Beer");
-                    return true;
-                case R.id.navigation_buy:
-                    mTextMessage.setText("Buy");
-                    return true;
-                case R.id.navigation_profile:
-                    mTextMessage.setText("Profile");
-                    return true;
-            }
-            return false;
+            return StaticNavigation.ExecuteBottonNavigation(StartGoroActivity.this, item.getItemId());
         }
     };
 

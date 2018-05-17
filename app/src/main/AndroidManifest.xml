@@ -9,27 +9,45 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegisterActivity" />
-        <activity android:name=".SuccessGoToBeerActivity" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuccessGoToBeerActivity"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".BeerOptionsActivity"
-            android:label="@string/title_activity_beer_options" />
+            android:label="@string/title_activity_beer_options"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".StartGoroActivity"
-            android:label="@string/title_activity_start_goro" />
+            android:label="@string/title_activity_start_goro"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".UserProfileActivity"
-            android:label="@string/title_activity_user_profile" />
+            android:label="@string/title_activity_user_profile"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".PayBillActivity"
-            android:label="@string/title_activity_pay_bill"></activity>
+            android:label="@string/title_activity_pay_bill"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MakingGoroActivity"
+            android:label="@string/title_activity_making_goro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GoroTipsActivity"
+            android:label="@string/title_activity_goro_tips"
+            android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

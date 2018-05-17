@@ -7,4 +7,6 @@
     <string name="title_activity_start_goro">StartGoroActivity</string>
     <string name="title_activity_user_profile">UserProfileActivity</string>
     <string name="title_activity_pay_bill">PayBillActivity</string>
+    <string name="title_activity_making_goro">MakingGoroActivity</string>
+    <string name="title_activity_goro_tips">GoroTipsActivity</string>
 </resources>

@@ -13,11 +13,11 @@
         android:orientation="vertical">
 
         <ImageView
-            android:layout_width="96dp"
-            android:layout_height="96dp"
+            android:layout_width="106dp"
+            android:layout_height="106dp"
             android:layout_gravity="center"
             android:layout_marginTop="90dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@mipmap/ic_beer" />
 
         <Button
             android:layout_width="220dp"

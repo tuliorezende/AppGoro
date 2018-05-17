@@ -6,31 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_margin="20dp"
-    tools:context=".PayBillActivity">
+    tools:context=".MakingGoroActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="30dp"
         android:orientation="vertical">
 
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:layout_gravity="center"
-            android:layout_marginTop="30dp"
-            android:src="@mipmap/ic_credit_card" />
-
         <TextView
-            android:layout_width="205dp"
-            android:layout_height="70dp"
+            android:layout_width="220dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="230dp"
             android:background="@drawable/rounded_edittext"
             android:gravity="center"
-            android:layout_gravity="center"
-            android:text="Aproxime o Telefone da Maquina de Cartão"
-            android:textStyle="bold"
+            android:text="Fazendo Goró..."
             android:textColor="@color/primaryColor"
-            android:layout_marginTop="120dp"/>
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="106dp"
+            android:layout_height="106dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="90dp"
+            android:background="@mipmap/ic_making_goro" />
+
 
     </LinearLayout>
 
@@ -41,11 +41,11 @@
         android:layout_marginEnd="0dp"
         android:layout_marginStart="0dp"
         android:background="?android:attr/windowBackground"
+        android:foregroundGravity="center_vertical"
         app:itemIconTint="@color/secondaryColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        android:foregroundGravity="center_vertical"
         app:menu="@menu/navigation" />
 
 </android.support.constraint.ConstraintLayout>

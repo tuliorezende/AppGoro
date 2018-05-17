@@ -19,7 +19,7 @@
             android:layout_height="96dp"
             android:layout_gravity="center"
             android:layout_marginTop="90dp"
-            android:background="@mipmap/ic_launcher" />
+            android:background="@mipmap/ic_beer" />
 
 
         <EditText
