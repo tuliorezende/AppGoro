@@ -69,7 +69,7 @@ public class CarouselAdapter extends PagerAdapter {
         BeerModel beerModel = this.beerModelList.get(position);
 
         beerMark.setImageResource(beerModel.BeerMark);
-        beerMark.setImageResource(beerModel.BeerExample);
+        beerExample.setImageResource(beerModel.BeerExample);
 
         beerRating.setRating(Float.parseFloat(beerModel.BeerRating));
         beerRating.setIsIndicator(true);

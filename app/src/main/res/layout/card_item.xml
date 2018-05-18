@@ -16,32 +16,33 @@
 
             <ImageView
                 android:id="@+id/beerMark"
-                android:layout_width="96dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
                 android:layout_gravity="center"
-                android:src="@mipmap/ic_launcher" />
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_heineken_logo" />
 
             <ImageView
                 android:id="@+id/beerExample"
-                android:layout_width="96dp"
-                android:layout_height="96dp"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 android:layout_gravity="center"
-                android:layout_marginTop="20dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_heineken" />
 
             <RatingBar
                 android:id="@+id/beerRating"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="10dp"
                 android:numStars="5"
                 android:rating="3"
                 android:theme="@style/RatingBar" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="185dp"
                 android:background="@drawable/round_rect_shape"
                 android:orientation="horizontal">
 
@@ -55,7 +56,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
-                        android:layout_marginTop="20dp"
+                        android:layout_marginTop="15dp"
                         android:text="Cervejaria: "
                         android:textColor="@color/blankColor" />
 

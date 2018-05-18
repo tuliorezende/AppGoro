@@ -44,8 +44,8 @@ public class BeerOptionsActivity extends AppCompatActivity {
     private void initData() {
 
         BeerModel heineken = new BeerModel();
-        heineken.BeerMark = R.mipmap.ic_launcher;
-        heineken.BeerExample = R.mipmap.ic_launcher;
+        heineken.BeerMark = R.mipmap.ic_heineken_logo;
+        heineken.BeerExample = R.mipmap.ic_heineken;
         heineken.BeerRating = "4";
         heineken.BeerName = "Cervejaria: Cervejaria Heineken";
         heineken.BeerGroup = "Grupo: Grupo Heineken";
@@ -57,8 +57,8 @@ public class BeerOptionsActivity extends AppCompatActivity {
         heineken.BeerType = "Copo ideal: Lager (Chppe)";
 
         BeerModel imperio = new BeerModel();
-        imperio.BeerMark = R.mipmap.ic_launcher_round;
-        imperio.BeerExample = R.mipmap.ic_launcher_round;
+        imperio.BeerMark = R.mipmap.ic_imperio_logo;
+        imperio.BeerExample = R.mipmap.ic_imperio;
         imperio.BeerRating = "2";
         imperio.BeerName = "Cervejaria: Cervejaria Império";
         imperio.BeerGroup = "Grupo: Império";
