@@ -19,7 +19,7 @@
                 android:layout_width="96dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:background="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_launcher" />
 
             <ImageView
                 android:id="@+id/beerExample"
@@ -27,7 +27,7 @@
                 android:layout_height="96dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:background="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_launcher" />
 
             <RatingBar
                 android:id="@+id/beerRating"
@@ -120,11 +120,11 @@
 
             <ImageButton
                 android:id="@+id/buyBeer"
-                android:layout_width="96dp"
+                android:layout_width="70dp"
                 android:layout_height="70dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:background="@mipmap/ic_launcher"
+                android:background="@mipmap/ic_shopping_chart"
                 android:focusable="false" />
 
         </LinearLayout>
